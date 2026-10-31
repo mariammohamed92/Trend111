@@ -1,0 +1,38 @@
+.auth{
+    background-color: rgba(255, 124, 164, 1);
+}
+.notfound{
+    color: rgba(255, 124, 164, 1);
+}
+.trend{
+    border: 3px solid rgba(255, 124, 164, 1);
+}
+.heading{
+        color: rgba(255, 124, 164, 1);
+font-size: 30px;
+}
+
+.imagelayer{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 1%;
+    left: 3px;
+    right: 3px;
+    bottom: 16px;
+    opacity: 0;
+}
+
+.imagelayer:hover{
+    opacity: 1;
+}
+.imginfo{
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 100%;
+    top: 30%;
+}
+.imginfo h5{
+    font-size: 30px;
+    font-weight: 700;
+}
